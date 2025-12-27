@@ -1,0 +1,13 @@
+package ggomg.ggshopbackend;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class GgShopBackendApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

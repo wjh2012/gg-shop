@@ -1,0 +1,13 @@
+package ggomg.ggshopbackend;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class GgShopBackendApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(GgShopBackendApplication.class, args);
+    }
+
+}
