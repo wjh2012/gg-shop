@@ -1,0 +1,17 @@
+services:
+  db:
+    container_name: ggshop_postgres_dev
+    image: postgres:latest
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: ggshop_backend_dev
+      LANG: C.UTF-8
+      LC_ALL: C.UTF-8
+    volumes:
+      - ggshop_postgres_dev_volume:/var/lib/postgresql
+
+volumes:
+  ggshop_postgres_dev_volume:
